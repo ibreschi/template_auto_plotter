@@ -13,6 +13,9 @@ default_name="test"
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    # 1) Fetch the input each one has (metadata and data)
+    # 2) for each input use the metadata to choose how to display each data
+    # 3) add to the template all the input with way of displaying it
     return render_template("index.html")
 #
 #     name = default_name

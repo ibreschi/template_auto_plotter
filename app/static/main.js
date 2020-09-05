@@ -1,3 +1,5 @@
+// In this file we should add the different ways to display data
+//
 
 const svg = d3.select('#svg');
 
