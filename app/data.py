@@ -15,7 +15,7 @@ def get_data():
 
 def get_apple_stock_price():
     data = get_data()
-    metadata = { "graph_type": "A",
+    metadata = { "type": "A",
                  "style": "border:1px solid green; "}
     data["metadata"] = metadata
     return data
@@ -23,7 +23,7 @@ def get_apple_stock_price():
 
 def get_amazon_stock_price():
     data = get_data()
-    metadata = { "graph_type": "B",
+    metadata = { "type": "B",
                  "style": "border:2px solid red; "}
     data["metadata"] = metadata
     return data

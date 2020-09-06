@@ -9,7 +9,7 @@
     <div class="container">
       <!-- Here we should add all the object that we want to display -->
       {%for i in range(0, len)%}
-      <svg id="svg_{{i}}" style="{{items[i].metadata['style']}}"> </svg>
+      <svg id="svg_{{i}}" class="{{items[i].metadata['type']}}" style="{{items[i].metadata['style']}}"> </svg>
       {% endfor %}
 
       <svg id="svg" style="width:100%; height: 800px" />

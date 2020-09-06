@@ -25,6 +25,7 @@ def index():
     items = []
     items.append(d)
     items.append(d2)
+
     return render_template("index.html", len=len(items), items=items)
 #
 #     name = default_name
